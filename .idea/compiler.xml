@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="eureka" />
         <module name="eureka-client" />
+        <module name="eureka-client2" />
       </profile>
     </annotationProcessing>
   </component>
