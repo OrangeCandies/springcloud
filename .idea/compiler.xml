@@ -9,6 +9,7 @@
         <module name="eureka" />
         <module name="eureka-client" />
         <module name="eureka-client2" />
+        <module name="ribbon" />
       </profile>
     </annotationProcessing>
   </component>
