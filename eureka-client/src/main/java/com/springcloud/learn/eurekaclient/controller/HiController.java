@@ -13,7 +13,7 @@ public class HiController {
 
 
     @GetMapping("/hi")
-    public String hi(String name){
-        return "Hi "+name+" i am from port:"+port;
+    public String hi(String name) {
+        return "Hi " + name + " i am from port:" + port;
     }
 }

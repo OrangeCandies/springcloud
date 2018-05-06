@@ -8,7 +8,13 @@
         <option value="$PROJECT_DIR$/eureka-client/pom.xml" />
         <option value="$PROJECT_DIR$/eureka/pom.xml" />
         <option value="$PROJECT_DIR$/eureka-client2/pom.xml" />
-        <option value="$PROJECT_DIR$/../netfix/ribbon/pom.xml" />
+        <option value="$PROJECT_DIR$/ribbon/pom.xml" />
+        <option value="$PROJECT_DIR$/eureka-zuul-client/pom.xml" />
+        <option value="$PROJECT_DIR$/config-server/pom.xml" />
+        <option value="$PROJECT_DIR$/config-client/pom.xml" />
+        <option value="$PROJECT_DIR$/../netfix/zipkin-server/pom.xml" />
+        <option value="$PROJECT_DIR$/../netfix/user-service/pom.xml" />
+        <option value="$PROJECT_DIR$/../netfix/gateway-service/pom.xml" />
       </list>
     </option>
   </component>

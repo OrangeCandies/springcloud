@@ -2,6 +2,7 @@ package com.springcloud.learn.eurekazuulclient.component;
 
 import com.netflix.zuul.ZuulFilter;
 import com.netflix.zuul.context.RequestContext;
+import org.springframework.stereotype.Component;
 
 import javax.servlet.http.HttpServletRequest;
 
@@ -9,6 +10,7 @@ import java.io.IOException;
 
 import static org.springframework.cloud.netflix.zuul.filters.support.FilterConstants.PRE_TYPE;
 
+@Component
 public class MyFilter extends ZuulFilter {
     @Override
     public String filterType() {
