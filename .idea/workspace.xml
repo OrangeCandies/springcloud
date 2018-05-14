@@ -11,9 +11,9 @@
     <ignored path="$PROJECT_DIR$/eureka-zuul-client/target/" />
     <ignored path="$PROJECT_DIR$/config-server/target/" />
     <ignored path="$PROJECT_DIR$/config-client/target/" />
-    <ignored path="$PROJECT_DIR$/../netfix/zipkin-server/target/" />
-    <ignored path="$PROJECT_DIR$/../netfix/user-service/target/" />
-    <ignored path="$PROJECT_DIR$/../netfix/gateway-service/target/" />
+    <ignored path="$PROJECT_DIR$/zipkin-server/target/" />
+    <ignored path="$PROJECT_DIR$/user-service/target/" />
+    <ignored path="$PROJECT_DIR$/gateway-service/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -38,7 +38,7 @@
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../netfix/user-service/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
+            <state relative-caret-position="340">
               <caret line="20" selection-start-line="20" selection-end-line="20" />
             </state>
           </provider>
@@ -65,7 +65,7 @@
       <file leaf-file-name="UserController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../netfix/user-service/src/main/java/com/springcloud/learn/userservice/controller/UserController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
+            <state relative-caret-position="136">
               <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -77,16 +77,10 @@
       <file leaf-file-name="GatewayFilter.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../netfix/gateway-service/src/main/java/com/springcloud/learn/gatewayservice/config/GatewayFilter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
+            <state relative-caret-position="242">
               <caret line="30" column="49" selection-start-line="30" selection-start-column="49" selection-end-line="30" selection-end-column="49" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#184#185#0" expanded="true" />
-                <element signature="e#215#216#0" expanded="true" />
-                <element signature="e#257#258#0" expanded="true" />
-                <element signature="e#281#282#0" expanded="true" />
-                <element signature="e#332#333#0" expanded="true" />
-                <element signature="e#360#361#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -188,19 +182,19 @@
         <option value="$PROJECT_DIR$/config-server/src/main/resources/shared/config-client-dev.yml" />
         <option value="$PROJECT_DIR$/config-server/src/main/java/com/springcloud/learn/configserver/ConfigServerApplication.java" />
         <option value="$PROJECT_DIR$/eureka-client/src/main/java/com/springcloud/learn/eurekaclient/EurekaClientApplication.java" />
-        <option value="$PROJECT_DIR$/../netfix/eureka-zuul-client/src/main/java/com/springcloud/learn/eurekazuulclient/component/MyFilter.java" />
-        <option value="$PROJECT_DIR$/../netfix/zipkin-server/pom.xml" />
-        <option value="$PROJECT_DIR$/../netfix/zipkin-server/src/main/java/com/springcloud/learn/zipkinserver/ZipkinServerApplication.java" />
-        <option value="$PROJECT_DIR$/../netfix/user-service/src/main/java/com/springcloud/learn/userservice/controller/UserController.java" />
-        <option value="$PROJECT_DIR$/../netfix/user-service/src/main/java/com/springcloud/learn/userservice/UserServiceApplication.java" />
-        <option value="$PROJECT_DIR$/../netfix/gateway-service/pom.xml" />
-        <option value="$PROJECT_DIR$/../netfix/pom.xml" />
-        <option value="$PROJECT_DIR$/../netfix/zipkin-server/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/../netfix/user-service/pom.xml" />
-        <option value="$PROJECT_DIR$/../netfix/gateway-service/src/main/java/com/springcloud/learn/gatewayservice/GatewayServiceApplication.java" />
-        <option value="$PROJECT_DIR$/../netfix/gateway-service/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/../netfix/user-service/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/../netfix/gateway-service/src/main/java/com/springcloud/learn/gatewayservice/config/GatewayFilter.java" />
+        <option value="$PROJECT_DIR$/eureka-zuul-client/src/main/java/com/springcloud/learn/eurekazuulclient/component/MyFilter.java" />
+        <option value="$PROJECT_DIR$/zipkin-server/pom.xml" />
+        <option value="$PROJECT_DIR$/zipkin-server/src/main/java/com/springcloud/learn/zipkinserver/ZipkinServerApplication.java" />
+        <option value="$PROJECT_DIR$/user-service/src/main/java/com/springcloud/learn/userservice/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/user-service/src/main/java/com/springcloud/learn/userservice/UserServiceApplication.java" />
+        <option value="$PROJECT_DIR$/gateway-service/pom.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/zipkin-server/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/user-service/pom.xml" />
+        <option value="$PROJECT_DIR$/gateway-service/src/main/java/com/springcloud/learn/gatewayservice/GatewayServiceApplication.java" />
+        <option value="$PROJECT_DIR$/gateway-service/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/user-service/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/gateway-service/src/main/java/com/springcloud/learn/gatewayservice/config/GatewayFilter.java" />
       </list>
     </option>
   </component>
@@ -244,6 +238,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -395,7 +390,6 @@
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="AndroidView" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -593,7 +587,11 @@
       <workItem from="1525166545782" duration="8119000" />
       <workItem from="1525269518179" duration="314000" />
       <workItem from="1525446658591" duration="51000" />
-      <workItem from="1525591822969" duration="8600000" />
+      <workItem from="1525591822969" duration="8753000" />
+      <workItem from="1525701803936" duration="26000" />
+      <workItem from="1526216115016" duration="594000" />
+      <workItem from="1526310372375" duration="484000" />
+      <workItem from="1526310916734" duration="145000" />
     </task>
     <task id="LOCAL-00001" summary="搭建了基础父环境  解决了很多奇怪的Bug 配置了Eureka和EurekaClient服务端">
       <created>1525014572944</created>
@@ -613,11 +611,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29607000" />
+    <option name="totallyTimeSpent" value="31009000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1552" height="840" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5006748" side_tool="true" weight="0.32896653" />
@@ -631,17 +628,16 @@
       <window_info id="UI Designer" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.6605938" weight="0.3988355" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.32896653" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="bottom" id="Java Enterprise" order="7" weight="0.32896653" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49932525" weight="0.33915576" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.64507425" visible="true" weight="0.23726347" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.64507425" weight="0.6899563" />
       <window_info anchor="bottom" id="Spring" order="7" weight="0.32896653" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4959514" weight="0.5138282" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49754903" visible="true" weight="0.28677464" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.4959514" visible="true" weight="0.3173217" />
       <window_info anchor="bottom" id="Problems" order="7" weight="0.32896653" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49754903" visible="true" weight="0.30836707" />
       <window_info anchor="right" id="Bean Validation" order="3" />
       <window_info id="Web" order="2" side_tool="true" />
       <window_info anchor="right" id="Theme Preview" order="3" />
@@ -649,6 +645,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32896653" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -696,6 +693,16 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/../netfix/gateway-service/src/main/java/com/springcloud/learn/gatewayservice/config/GatewayFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="30" column="49" selection-start-line="30" selection-start-column="49" selection-end-line="30" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/../netfix/eureka-client2/src/main/java/com/springcloud/learn/eurekaclient/controller/HiController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -862,9 +869,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="14" column="11" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -879,10 +883,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="10" selection-start-line="10" selection-end-line="10" />
-          <folding>
-            <element signature="e#360#361#0" expanded="true" />
-            <element signature="e#434#435#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -890,9 +890,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -937,9 +934,6 @@
           <caret line="36" column="21" selection-start-line="36" selection-start-column="21" selection-end-line="36" selection-end-column="21" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../netfix/gateway-service/.gitignore">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/../netfix/eureka-client/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
@@ -992,7 +986,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../netfix/user-service/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
+        <state relative-caret-position="340">
           <caret line="20" selection-start-line="20" selection-end-line="20" />
         </state>
       </provider>
@@ -1041,7 +1035,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../netfix/user-service/src/main/java/com/springcloud/learn/userservice/controller/UserController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
+        <state relative-caret-position="136">
           <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1051,16 +1045,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../netfix/gateway-service/src/main/java/com/springcloud/learn/gatewayservice/config/GatewayFilter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
+        <state relative-caret-position="242">
           <caret line="30" column="49" selection-start-line="30" selection-start-column="49" selection-end-line="30" selection-end-column="49" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#184#185#0" expanded="true" />
-            <element signature="e#215#216#0" expanded="true" />
-            <element signature="e#257#258#0" expanded="true" />
-            <element signature="e#281#282#0" expanded="true" />
-            <element signature="e#332#333#0" expanded="true" />
-            <element signature="e#360#361#0" expanded="true" />
           </folding>
         </state>
       </provider>
